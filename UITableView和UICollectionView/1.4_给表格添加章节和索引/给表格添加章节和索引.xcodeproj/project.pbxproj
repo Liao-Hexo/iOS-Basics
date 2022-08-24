@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62B219182699494A00C70484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B219172699494A00C70484 /* AppDelegate.swift */; };
+		62B2191A2699494A00C70484 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B219192699494A00C70484 /* SceneDelegate.swift */; };
+		62B2191C2699494A00C70484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B2191B2699494A00C70484 /* ViewController.swift */; };
+		62B2191F2699494A00C70484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B2191D2699494A00C70484 /* Main.storyboard */; };
+		62B219212699494C00C70484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B219202699494C00C70484 /* Assets.xcassets */; };
+		62B219242699494C00C70484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B219222699494C00C70484 /* LaunchScreen.storyboard */; };
+		62B2192F2699494C00C70484 /* __________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B2192E2699494C00C70484 /* __________Tests.swift */; };
+		62B2193A2699494C00C70484 /* __________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B219392699494C00C70484 /* __________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62B2192B2699494C00C70484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B2190C2699494A00C70484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B219132699494A00C70484;
+			remoteInfo = "给表格添加章节和索引";
+		};
+		62B219362699494C00C70484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B2190C2699494A00C70484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B219132699494A00C70484;
+			remoteInfo = "给表格添加章节和索引";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62B219142699494A00C70484 /* 给表格添加章节和索引.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "给表格添加章节和索引.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B219172699494A00C70484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62B219192699494A00C70484 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62B2191B2699494A00C70484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62B2191E2699494A00C70484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62B219202699494C00C70484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62B219232699494C00C70484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62B219252699494C00C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B2192A2699494C00C70484 /* 给表格添加章节和索引Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "给表格添加章节和索引Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B2192E2699494C00C70484 /* __________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__________Tests.swift"; sourceTree = "<group>"; };
+		62B219302699494C00C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B219352699494C00C70484 /* 给表格添加章节和索引UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "给表格添加章节和索引UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B219392699494C00C70484 /* __________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__________UITests.swift"; sourceTree = "<group>"; };
+		62B2193B2699494C00C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62B219112699494A00C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B219272699494C00C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B219322699494C00C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62B2190B2699494A00C70484 = {
+			isa = PBXGroup;
+			children = (
+				62B219162699494A00C70484 /* 给表格添加章节和索引 */,
+				62B2192D2699494C00C70484 /* 给表格添加章节和索引Tests */,
+				62B219382699494C00C70484 /* 给表格添加章节和索引UITests */,
+				62B219152699494A00C70484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62B219152699494A00C70484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62B219142699494A00C70484 /* 给表格添加章节和索引.app */,
+				62B2192A2699494C00C70484 /* 给表格添加章节和索引Tests.xctest */,
+				62B219352699494C00C70484 /* 给表格添加章节和索引UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62B219162699494A00C70484 /* 给表格添加章节和索引 */ = {
+			isa = PBXGroup;
+			children = (
+				62B219172699494A00C70484 /* AppDelegate.swift */,
+				62B219192699494A00C70484 /* SceneDelegate.swift */,
+				62B2191B2699494A00C70484 /* ViewController.swift */,
+				62B2191D2699494A00C70484 /* Main.storyboard */,
+				62B219202699494C00C70484 /* Assets.xcassets */,
+				62B219222699494C00C70484 /* LaunchScreen.storyboard */,
+				62B219252699494C00C70484 /* Info.plist */,
+			);
+			path = "给表格添加章节和索引";
+			sourceTree = "<group>";
+		};
+		62B2192D2699494C00C70484 /* 给表格添加章节和索引Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62B2192E2699494C00C70484 /* __________Tests.swift */,
+				62B219302699494C00C70484 /* Info.plist */,
+			);
+			path = "给表格添加章节和索引Tests";
+			sourceTree = "<group>";
+		};
+		62B219382699494C00C70484 /* 给表格添加章节和索引UITests */ = {
+			isa = PBXGroup;
+			children = (
+				62B219392699494C00C70484 /* __________UITests.swift */,
+				62B2193B2699494C00C70484 /* Info.plist */,
+			);
+			path = "给表格添加章节和索引UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62B219132699494A00C70484 /* 给表格添加章节和索引 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B2193E2699494C00C70484 /* Build configuration list for PBXNativeTarget "给表格添加章节和索引" */;
+			buildPhases = (
+				62B219102699494A00C70484 /* Sources */,
+				62B219112699494A00C70484 /* Frameworks */,
+				62B219122699494A00C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "给表格添加章节和索引";
+			productName = "给表格添加章节和索引";
+			productReference = 62B219142699494A00C70484 /* 给表格添加章节和索引.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62B219292699494C00C70484 /* 给表格添加章节和索引Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B219412699494C00C70484 /* Build configuration list for PBXNativeTarget "给表格添加章节和索引Tests" */;
+			buildPhases = (
+				62B219262699494C00C70484 /* Sources */,
+				62B219272699494C00C70484 /* Frameworks */,
+				62B219282699494C00C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B2192C2699494C00C70484 /* PBXTargetDependency */,
+			);
+			name = "给表格添加章节和索引Tests";
+			productName = "给表格添加章节和索引Tests";
+			productReference = 62B2192A2699494C00C70484 /* 给表格添加章节和索引Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62B219342699494C00C70484 /* 给表格添加章节和索引UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B219442699494C00C70484 /* Build configuration list for PBXNativeTarget "给表格添加章节和索引UITests" */;
+			buildPhases = (
+				62B219312699494C00C70484 /* Sources */,
+				62B219322699494C00C70484 /* Frameworks */,
+				62B219332699494C00C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B219372699494C00C70484 /* PBXTargetDependency */,
+			);
+			name = "给表格添加章节和索引UITests";
+			productName = "给表格添加章节和索引UITests";
+			productReference = 62B219352699494C00C70484 /* 给表格添加章节和索引UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62B2190C2699494A00C70484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					62B219132699494A00C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					62B219292699494C00C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 62B219132699494A00C70484;
+					};
+					62B219342699494C00C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 62B219132699494A00C70484;
+					};
+				};
+			};
+			buildConfigurationList = 62B2190F2699494A00C70484 /* Build configuration list for PBXProject "给表格添加章节和索引" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62B2190B2699494A00C70484;
+			productRefGroup = 62B219152699494A00C70484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62B219132699494A00C70484 /* 给表格添加章节和索引 */,
+				62B219292699494C00C70484 /* 给表格添加章节和索引Tests */,
+				62B219342699494C00C70484 /* 给表格添加章节和索引UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62B219122699494A00C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B219242699494C00C70484 /* LaunchScreen.storyboard in Resources */,
+				62B219212699494C00C70484 /* Assets.xcassets in Resources */,
+				62B2191F2699494A00C70484 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B219282699494C00C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B219332699494C00C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62B219102699494A00C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B2191C2699494A00C70484 /* ViewController.swift in Sources */,
+				62B219182699494A00C70484 /* AppDelegate.swift in Sources */,
+				62B2191A2699494A00C70484 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B219262699494C00C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B2192F2699494C00C70484 /* __________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B219312699494C00C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B2193A2699494C00C70484 /* __________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62B2192C2699494C00C70484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B219132699494A00C70484 /* 给表格添加章节和索引 */;
+			targetProxy = 62B2192B2699494C00C70484 /* PBXContainerItemProxy */;
+		};
+		62B219372699494C00C70484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B219132699494A00C70484 /* 给表格添加章节和索引 */;
+			targetProxy = 62B219362699494C00C70484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62B2191D2699494A00C70484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B2191E2699494A00C70484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62B219222699494C00C70484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B219232699494C00C70484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62B2193C2699494C00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62B2193D2699494C00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62B2193F2699494C00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "给表格添加章节和索引/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62B219402699494C00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "给表格添加章节和索引/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62B219422699494C00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "给表格添加章节和索引Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/给表格添加章节和索引.app/给表格添加章节和索引";
+			};
+			name = Debug;
+		};
+		62B219432699494C00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "给表格添加章节和索引Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/给表格添加章节和索引.app/给表格添加章节和索引";
+			};
+			name = Release;
+		};
+		62B219452699494C00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "给表格添加章节和索引UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "给表格添加章节和索引";
+			};
+			name = Debug;
+		};
+		62B219462699494C00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "给表格添加章节和索引UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "给表格添加章节和索引";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62B2190F2699494A00C70484 /* Build configuration list for PBXProject "给表格添加章节和索引" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B2193C2699494C00C70484 /* Debug */,
+				62B2193D2699494C00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B2193E2699494C00C70484 /* Build configuration list for PBXNativeTarget "给表格添加章节和索引" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B2193F2699494C00C70484 /* Debug */,
+				62B219402699494C00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B219412699494C00C70484 /* Build configuration list for PBXNativeTarget "给表格添加章节和索引Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B219422699494C00C70484 /* Debug */,
+				62B219432699494C00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B219442699494C00C70484 /* Build configuration list for PBXNativeTarget "给表格添加章节和索引UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B219452699494C00C70484 /* Debug */,
+				62B219462699494C00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62B2190C2699494A00C70484 /* Project object */;
+}
