@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62B21D94269AAB7E00C70484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21D93269AAB7E00C70484 /* AppDelegate.swift */; };
+		62B21D96269AAB7E00C70484 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21D95269AAB7E00C70484 /* SceneDelegate.swift */; };
+		62B21D98269AAB7E00C70484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21D97269AAB7E00C70484 /* ViewController.swift */; };
+		62B21D9B269AAB7E00C70484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B21D99269AAB7E00C70484 /* Main.storyboard */; };
+		62B21D9D269AAB8000C70484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B21D9C269AAB8000C70484 /* Assets.xcassets */; };
+		62B21DA0269AAB8000C70484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B21D9E269AAB8000C70484 /* LaunchScreen.storyboard */; };
+		62B21DAB269AAB8000C70484 /* __________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21DAA269AAB8000C70484 /* __________Tests.swift */; };
+		62B21DB6269AAB8000C70484 /* __________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21DB5269AAB8000C70484 /* __________UITests.swift */; };
+		62B21DC4269AAB9300C70484 /* Sunrise.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 62B21DC3269AAB9300C70484 /* Sunrise.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62B21DA7269AAB8000C70484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B21D88269AAB7E00C70484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B21D8F269AAB7E00C70484;
+			remoteInfo = "实现影片的画中画功能";
+		};
+		62B21DB2269AAB8000C70484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B21D88269AAB7E00C70484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B21D8F269AAB7E00C70484;
+			remoteInfo = "实现影片的画中画功能";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62B21D90269AAB7E00C70484 /* 实现影片的画中画功能.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "实现影片的画中画功能.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21D93269AAB7E00C70484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62B21D95269AAB7E00C70484 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62B21D97269AAB7E00C70484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62B21D9A269AAB7E00C70484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62B21D9C269AAB8000C70484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62B21D9F269AAB8000C70484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62B21DA1269AAB8000C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B21DA6269AAB8000C70484 /* 实现影片的画中画功能Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "实现影片的画中画功能Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21DAA269AAB8000C70484 /* __________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__________Tests.swift"; sourceTree = "<group>"; };
+		62B21DAC269AAB8000C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B21DB1269AAB8000C70484 /* 实现影片的画中画功能UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "实现影片的画中画功能UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21DB5269AAB8000C70484 /* __________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__________UITests.swift"; sourceTree = "<group>"; };
+		62B21DB7269AAB8000C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B21DC3269AAB9300C70484 /* Sunrise.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sunrise.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62B21D8D269AAB7E00C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21DA3269AAB8000C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21DAE269AAB8000C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62B21D87269AAB7E00C70484 = {
+			isa = PBXGroup;
+			children = (
+				62B21D92269AAB7E00C70484 /* 实现影片的画中画功能 */,
+				62B21DA9269AAB8000C70484 /* 实现影片的画中画功能Tests */,
+				62B21DB4269AAB8000C70484 /* 实现影片的画中画功能UITests */,
+				62B21D91269AAB7E00C70484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62B21D91269AAB7E00C70484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62B21D90269AAB7E00C70484 /* 实现影片的画中画功能.app */,
+				62B21DA6269AAB8000C70484 /* 实现影片的画中画功能Tests.xctest */,
+				62B21DB1269AAB8000C70484 /* 实现影片的画中画功能UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62B21D92269AAB7E00C70484 /* 实现影片的画中画功能 */ = {
+			isa = PBXGroup;
+			children = (
+				62B21DC3269AAB9300C70484 /* Sunrise.mp4 */,
+				62B21D93269AAB7E00C70484 /* AppDelegate.swift */,
+				62B21D95269AAB7E00C70484 /* SceneDelegate.swift */,
+				62B21D97269AAB7E00C70484 /* ViewController.swift */,
+				62B21D99269AAB7E00C70484 /* Main.storyboard */,
+				62B21D9C269AAB8000C70484 /* Assets.xcassets */,
+				62B21D9E269AAB8000C70484 /* LaunchScreen.storyboard */,
+				62B21DA1269AAB8000C70484 /* Info.plist */,
+			);
+			path = "实现影片的画中画功能";
+			sourceTree = "<group>";
+		};
+		62B21DA9269AAB8000C70484 /* 实现影片的画中画功能Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62B21DAA269AAB8000C70484 /* __________Tests.swift */,
+				62B21DAC269AAB8000C70484 /* Info.plist */,
+			);
+			path = "实现影片的画中画功能Tests";
+			sourceTree = "<group>";
+		};
+		62B21DB4269AAB8000C70484 /* 实现影片的画中画功能UITests */ = {
+			isa = PBXGroup;
+			children = (
+				62B21DB5269AAB8000C70484 /* __________UITests.swift */,
+				62B21DB7269AAB8000C70484 /* Info.plist */,
+			);
+			path = "实现影片的画中画功能UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62B21D8F269AAB7E00C70484 /* 实现影片的画中画功能 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21DBA269AAB8000C70484 /* Build configuration list for PBXNativeTarget "实现影片的画中画功能" */;
+			buildPhases = (
+				62B21D8C269AAB7E00C70484 /* Sources */,
+				62B21D8D269AAB7E00C70484 /* Frameworks */,
+				62B21D8E269AAB7E00C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "实现影片的画中画功能";
+			productName = "实现影片的画中画功能";
+			productReference = 62B21D90269AAB7E00C70484 /* 实现影片的画中画功能.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62B21DA5269AAB8000C70484 /* 实现影片的画中画功能Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21DBD269AAB8000C70484 /* Build configuration list for PBXNativeTarget "实现影片的画中画功能Tests" */;
+			buildPhases = (
+				62B21DA2269AAB8000C70484 /* Sources */,
+				62B21DA3269AAB8000C70484 /* Frameworks */,
+				62B21DA4269AAB8000C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B21DA8269AAB8000C70484 /* PBXTargetDependency */,
+			);
+			name = "实现影片的画中画功能Tests";
+			productName = "实现影片的画中画功能Tests";
+			productReference = 62B21DA6269AAB8000C70484 /* 实现影片的画中画功能Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62B21DB0269AAB8000C70484 /* 实现影片的画中画功能UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21DC0269AAB8000C70484 /* Build configuration list for PBXNativeTarget "实现影片的画中画功能UITests" */;
+			buildPhases = (
+				62B21DAD269AAB8000C70484 /* Sources */,
+				62B21DAE269AAB8000C70484 /* Frameworks */,
+				62B21DAF269AAB8000C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B21DB3269AAB8000C70484 /* PBXTargetDependency */,
+			);
+			name = "实现影片的画中画功能UITests";
+			productName = "实现影片的画中画功能UITests";
+			productReference = 62B21DB1269AAB8000C70484 /* 实现影片的画中画功能UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62B21D88269AAB7E00C70484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					62B21D8F269AAB7E00C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					62B21DA5269AAB8000C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 62B21D8F269AAB7E00C70484;
+					};
+					62B21DB0269AAB8000C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 62B21D8F269AAB7E00C70484;
+					};
+				};
+			};
+			buildConfigurationList = 62B21D8B269AAB7E00C70484 /* Build configuration list for PBXProject "实现影片的画中画功能" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62B21D87269AAB7E00C70484;
+			productRefGroup = 62B21D91269AAB7E00C70484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62B21D8F269AAB7E00C70484 /* 实现影片的画中画功能 */,
+				62B21DA5269AAB8000C70484 /* 实现影片的画中画功能Tests */,
+				62B21DB0269AAB8000C70484 /* 实现影片的画中画功能UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62B21D8E269AAB7E00C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21DA0269AAB8000C70484 /* LaunchScreen.storyboard in Resources */,
+				62B21D9D269AAB8000C70484 /* Assets.xcassets in Resources */,
+				62B21D9B269AAB7E00C70484 /* Main.storyboard in Resources */,
+				62B21DC4269AAB9300C70484 /* Sunrise.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21DA4269AAB8000C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21DAF269AAB8000C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62B21D8C269AAB7E00C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21D98269AAB7E00C70484 /* ViewController.swift in Sources */,
+				62B21D94269AAB7E00C70484 /* AppDelegate.swift in Sources */,
+				62B21D96269AAB7E00C70484 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21DA2269AAB8000C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21DAB269AAB8000C70484 /* __________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21DAD269AAB8000C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21DB6269AAB8000C70484 /* __________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62B21DA8269AAB8000C70484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B21D8F269AAB7E00C70484 /* 实现影片的画中画功能 */;
+			targetProxy = 62B21DA7269AAB8000C70484 /* PBXContainerItemProxy */;
+		};
+		62B21DB3269AAB8000C70484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B21D8F269AAB7E00C70484 /* 实现影片的画中画功能 */;
+			targetProxy = 62B21DB2269AAB8000C70484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62B21D99269AAB7E00C70484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B21D9A269AAB7E00C70484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62B21D9E269AAB8000C70484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B21D9F269AAB8000C70484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62B21DB8269AAB8000C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62B21DB9269AAB8000C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62B21DBB269AAB8000C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "实现影片的画中画功能/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62B21DBC269AAB8000C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "实现影片的画中画功能/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62B21DBE269AAB8000C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "实现影片的画中画功能Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/实现影片的画中画功能.app/实现影片的画中画功能";
+			};
+			name = Debug;
+		};
+		62B21DBF269AAB8000C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "实现影片的画中画功能Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/实现影片的画中画功能.app/实现影片的画中画功能";
+			};
+			name = Release;
+		};
+		62B21DC1269AAB8000C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "实现影片的画中画功能UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "实现影片的画中画功能";
+			};
+			name = Debug;
+		};
+		62B21DC2269AAB8000C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "实现影片的画中画功能UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "实现影片的画中画功能";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62B21D8B269AAB7E00C70484 /* Build configuration list for PBXProject "实现影片的画中画功能" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21DB8269AAB8000C70484 /* Debug */,
+				62B21DB9269AAB8000C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21DBA269AAB8000C70484 /* Build configuration list for PBXNativeTarget "实现影片的画中画功能" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21DBB269AAB8000C70484 /* Debug */,
+				62B21DBC269AAB8000C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21DBD269AAB8000C70484 /* Build configuration list for PBXNativeTarget "实现影片的画中画功能Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21DBE269AAB8000C70484 /* Debug */,
+				62B21DBF269AAB8000C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21DC0269AAB8000C70484 /* Build configuration list for PBXNativeTarget "实现影片的画中画功能UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21DC1269AAB8000C70484 /* Debug */,
+				62B21DC2269AAB8000C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62B21D88269AAB7E00C70484 /* Project object */;
+}

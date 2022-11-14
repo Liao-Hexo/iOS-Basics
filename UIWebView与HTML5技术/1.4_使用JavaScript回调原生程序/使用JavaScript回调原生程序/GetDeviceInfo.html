@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>用户注册页面</title>
+    <script>
+        function getDeviceInfo(){
+            document.location = "callios:getDeviceInfo"  //通过设置document对象的location属性的值使浏览器进行跳转
+            //注意，此处跳转的网址不是一个普通的网络地址，而是以冒号":"进行分隔的自定义格式的字符串。在此和webView对象约定，如果webView对象发现其网页跳转的路径不是HTTP协议，而是我们自定义的callios协议，就不进行页面的跳转，而是执行一些自定义操作，从而获得当前设备的信息
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="获得设备信息" onClick="getDeviceInfo()" style="width:305px;height:50px;font-size:20px;"/>
+</body>
+</html>

@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62B21C26269AA6AC00C70484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21C25269AA6AC00C70484 /* AppDelegate.swift */; };
+		62B21C28269AA6AC00C70484 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21C27269AA6AC00C70484 /* SceneDelegate.swift */; };
+		62B21C2A269AA6AC00C70484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21C29269AA6AC00C70484 /* ViewController.swift */; };
+		62B21C2D269AA6AC00C70484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B21C2B269AA6AC00C70484 /* Main.storyboard */; };
+		62B21C2F269AA6AE00C70484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B21C2E269AA6AE00C70484 /* Assets.xcassets */; };
+		62B21C32269AA6AE00C70484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B21C30269AA6AE00C70484 /* LaunchScreen.storyboard */; };
+		62B21C3D269AA6AE00C70484 /* UIView____Block__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21C3C269AA6AE00C70484 /* UIView____Block__Tests.swift */; };
+		62B21C48269AA6AE00C70484 /* UIView____Block__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21C47269AA6AE00C70484 /* UIView____Block__UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62B21C39269AA6AE00C70484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B21C1A269AA6AC00C70484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B21C21269AA6AC00C70484;
+			remoteInfo = "UIView动画块和Block动画";
+		};
+		62B21C44269AA6AE00C70484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B21C1A269AA6AC00C70484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B21C21269AA6AC00C70484;
+			remoteInfo = "UIView动画块和Block动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62B21C22269AA6AC00C70484 /* UIView动画块和Block动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIView动画块和Block动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21C25269AA6AC00C70484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62B21C27269AA6AC00C70484 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62B21C29269AA6AC00C70484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62B21C2C269AA6AC00C70484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62B21C2E269AA6AE00C70484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62B21C31269AA6AE00C70484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62B21C33269AA6AE00C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B21C38269AA6AE00C70484 /* UIView动画块和Block动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIView动画块和Block动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21C3C269AA6AE00C70484 /* UIView____Block__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView____Block__Tests.swift"; sourceTree = "<group>"; };
+		62B21C3E269AA6AE00C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B21C43269AA6AE00C70484 /* UIView动画块和Block动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIView动画块和Block动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21C47269AA6AE00C70484 /* UIView____Block__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView____Block__UITests.swift"; sourceTree = "<group>"; };
+		62B21C49269AA6AE00C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62B21C1F269AA6AC00C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21C35269AA6AE00C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21C40269AA6AE00C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62B21C19269AA6AC00C70484 = {
+			isa = PBXGroup;
+			children = (
+				62B21C24269AA6AC00C70484 /* UIView动画块和Block动画 */,
+				62B21C3B269AA6AE00C70484 /* UIView动画块和Block动画Tests */,
+				62B21C46269AA6AE00C70484 /* UIView动画块和Block动画UITests */,
+				62B21C23269AA6AC00C70484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62B21C23269AA6AC00C70484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62B21C22269AA6AC00C70484 /* UIView动画块和Block动画.app */,
+				62B21C38269AA6AE00C70484 /* UIView动画块和Block动画Tests.xctest */,
+				62B21C43269AA6AE00C70484 /* UIView动画块和Block动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62B21C24269AA6AC00C70484 /* UIView动画块和Block动画 */ = {
+			isa = PBXGroup;
+			children = (
+				62B21C25269AA6AC00C70484 /* AppDelegate.swift */,
+				62B21C27269AA6AC00C70484 /* SceneDelegate.swift */,
+				62B21C29269AA6AC00C70484 /* ViewController.swift */,
+				62B21C2B269AA6AC00C70484 /* Main.storyboard */,
+				62B21C2E269AA6AE00C70484 /* Assets.xcassets */,
+				62B21C30269AA6AE00C70484 /* LaunchScreen.storyboard */,
+				62B21C33269AA6AE00C70484 /* Info.plist */,
+			);
+			path = "UIView动画块和Block动画";
+			sourceTree = "<group>";
+		};
+		62B21C3B269AA6AE00C70484 /* UIView动画块和Block动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62B21C3C269AA6AE00C70484 /* UIView____Block__Tests.swift */,
+				62B21C3E269AA6AE00C70484 /* Info.plist */,
+			);
+			path = "UIView动画块和Block动画Tests";
+			sourceTree = "<group>";
+		};
+		62B21C46269AA6AE00C70484 /* UIView动画块和Block动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				62B21C47269AA6AE00C70484 /* UIView____Block__UITests.swift */,
+				62B21C49269AA6AE00C70484 /* Info.plist */,
+			);
+			path = "UIView动画块和Block动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62B21C21269AA6AC00C70484 /* UIView动画块和Block动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21C4C269AA6AE00C70484 /* Build configuration list for PBXNativeTarget "UIView动画块和Block动画" */;
+			buildPhases = (
+				62B21C1E269AA6AC00C70484 /* Sources */,
+				62B21C1F269AA6AC00C70484 /* Frameworks */,
+				62B21C20269AA6AC00C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIView动画块和Block动画";
+			productName = "UIView动画块和Block动画";
+			productReference = 62B21C22269AA6AC00C70484 /* UIView动画块和Block动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62B21C37269AA6AE00C70484 /* UIView动画块和Block动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21C4F269AA6AE00C70484 /* Build configuration list for PBXNativeTarget "UIView动画块和Block动画Tests" */;
+			buildPhases = (
+				62B21C34269AA6AE00C70484 /* Sources */,
+				62B21C35269AA6AE00C70484 /* Frameworks */,
+				62B21C36269AA6AE00C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B21C3A269AA6AE00C70484 /* PBXTargetDependency */,
+			);
+			name = "UIView动画块和Block动画Tests";
+			productName = "UIView动画块和Block动画Tests";
+			productReference = 62B21C38269AA6AE00C70484 /* UIView动画块和Block动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62B21C42269AA6AE00C70484 /* UIView动画块和Block动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21C52269AA6AE00C70484 /* Build configuration list for PBXNativeTarget "UIView动画块和Block动画UITests" */;
+			buildPhases = (
+				62B21C3F269AA6AE00C70484 /* Sources */,
+				62B21C40269AA6AE00C70484 /* Frameworks */,
+				62B21C41269AA6AE00C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B21C45269AA6AE00C70484 /* PBXTargetDependency */,
+			);
+			name = "UIView动画块和Block动画UITests";
+			productName = "UIView动画块和Block动画UITests";
+			productReference = 62B21C43269AA6AE00C70484 /* UIView动画块和Block动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62B21C1A269AA6AC00C70484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					62B21C21269AA6AC00C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					62B21C37269AA6AE00C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 62B21C21269AA6AC00C70484;
+					};
+					62B21C42269AA6AE00C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 62B21C21269AA6AC00C70484;
+					};
+				};
+			};
+			buildConfigurationList = 62B21C1D269AA6AC00C70484 /* Build configuration list for PBXProject "UIView动画块和Block动画" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62B21C19269AA6AC00C70484;
+			productRefGroup = 62B21C23269AA6AC00C70484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62B21C21269AA6AC00C70484 /* UIView动画块和Block动画 */,
+				62B21C37269AA6AE00C70484 /* UIView动画块和Block动画Tests */,
+				62B21C42269AA6AE00C70484 /* UIView动画块和Block动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62B21C20269AA6AC00C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21C32269AA6AE00C70484 /* LaunchScreen.storyboard in Resources */,
+				62B21C2F269AA6AE00C70484 /* Assets.xcassets in Resources */,
+				62B21C2D269AA6AC00C70484 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21C36269AA6AE00C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21C41269AA6AE00C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62B21C1E269AA6AC00C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21C2A269AA6AC00C70484 /* ViewController.swift in Sources */,
+				62B21C26269AA6AC00C70484 /* AppDelegate.swift in Sources */,
+				62B21C28269AA6AC00C70484 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21C34269AA6AE00C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21C3D269AA6AE00C70484 /* UIView____Block__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21C3F269AA6AE00C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21C48269AA6AE00C70484 /* UIView____Block__UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62B21C3A269AA6AE00C70484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B21C21269AA6AC00C70484 /* UIView动画块和Block动画 */;
+			targetProxy = 62B21C39269AA6AE00C70484 /* PBXContainerItemProxy */;
+		};
+		62B21C45269AA6AE00C70484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B21C21269AA6AC00C70484 /* UIView动画块和Block动画 */;
+			targetProxy = 62B21C44269AA6AE00C70484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62B21C2B269AA6AC00C70484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B21C2C269AA6AC00C70484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62B21C30269AA6AE00C70484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B21C31269AA6AE00C70484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62B21C4A269AA6AE00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62B21C4B269AA6AE00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62B21C4D269AA6AE00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "UIView动画块和Block动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.UIView----Block--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62B21C4E269AA6AE00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "UIView动画块和Block动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.UIView----Block--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62B21C50269AA6AE00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "UIView动画块和Block动画Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.UIView----Block--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIView动画块和Block动画.app/UIView动画块和Block动画";
+			};
+			name = Debug;
+		};
+		62B21C51269AA6AE00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "UIView动画块和Block动画Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.UIView----Block--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIView动画块和Block动画.app/UIView动画块和Block动画";
+			};
+			name = Release;
+		};
+		62B21C53269AA6AE00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "UIView动画块和Block动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.UIView----Block--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIView动画块和Block动画";
+			};
+			name = Debug;
+		};
+		62B21C54269AA6AE00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "UIView动画块和Block动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.UIView----Block--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIView动画块和Block动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62B21C1D269AA6AC00C70484 /* Build configuration list for PBXProject "UIView动画块和Block动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21C4A269AA6AE00C70484 /* Debug */,
+				62B21C4B269AA6AE00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21C4C269AA6AE00C70484 /* Build configuration list for PBXNativeTarget "UIView动画块和Block动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21C4D269AA6AE00C70484 /* Debug */,
+				62B21C4E269AA6AE00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21C4F269AA6AE00C70484 /* Build configuration list for PBXNativeTarget "UIView动画块和Block动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21C50269AA6AE00C70484 /* Debug */,
+				62B21C51269AA6AE00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21C52269AA6AE00C70484 /* Build configuration list for PBXNativeTarget "UIView动画块和Block动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21C53269AA6AE00C70484 /* Debug */,
+				62B21C54269AA6AE00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62B21C1A269AA6AC00C70484 /* Project object */;
+}

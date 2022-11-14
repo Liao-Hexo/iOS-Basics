@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62B21C9E269AA8B700C70484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21C9D269AA8B700C70484 /* AppDelegate.swift */; };
+		62B21CA0269AA8B700C70484 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21C9F269AA8B700C70484 /* SceneDelegate.swift */; };
+		62B21CA2269AA8B700C70484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21CA1269AA8B700C70484 /* ViewController.swift */; };
+		62B21CA5269AA8B700C70484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B21CA3269AA8B700C70484 /* Main.storyboard */; };
+		62B21CA7269AA8B900C70484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B21CA6269AA8B900C70484 /* Assets.xcassets */; };
+		62B21CAA269AA8B900C70484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B21CA8269AA8B900C70484 /* LaunchScreen.storyboard */; };
+		62B21CB5269AA8BA00C70484 /* __________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21CB4269AA8BA00C70484 /* __________Tests.swift */; };
+		62B21CC0269AA8BA00C70484 /* __________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21CBF269AA8BA00C70484 /* __________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62B21CB1269AA8BA00C70484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B21C92269AA8B700C70484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B21C99269AA8B700C70484;
+			remoteInfo = "位移关键帧动画的制作";
+		};
+		62B21CBC269AA8BA00C70484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B21C92269AA8B700C70484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B21C99269AA8B700C70484;
+			remoteInfo = "位移关键帧动画的制作";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62B21C9A269AA8B700C70484 /* 位移关键帧动画的制作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "位移关键帧动画的制作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21C9D269AA8B700C70484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62B21C9F269AA8B700C70484 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62B21CA1269AA8B700C70484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62B21CA4269AA8B700C70484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62B21CA6269AA8B900C70484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62B21CA9269AA8B900C70484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62B21CAB269AA8B900C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B21CB0269AA8BA00C70484 /* 位移关键帧动画的制作Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "位移关键帧动画的制作Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21CB4269AA8BA00C70484 /* __________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__________Tests.swift"; sourceTree = "<group>"; };
+		62B21CB6269AA8BA00C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B21CBB269AA8BA00C70484 /* 位移关键帧动画的制作UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "位移关键帧动画的制作UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21CBF269AA8BA00C70484 /* __________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__________UITests.swift"; sourceTree = "<group>"; };
+		62B21CC1269AA8BA00C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62B21C97269AA8B700C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CAD269AA8BA00C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CB8269AA8BA00C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62B21C91269AA8B700C70484 = {
+			isa = PBXGroup;
+			children = (
+				62B21C9C269AA8B700C70484 /* 位移关键帧动画的制作 */,
+				62B21CB3269AA8BA00C70484 /* 位移关键帧动画的制作Tests */,
+				62B21CBE269AA8BA00C70484 /* 位移关键帧动画的制作UITests */,
+				62B21C9B269AA8B700C70484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62B21C9B269AA8B700C70484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62B21C9A269AA8B700C70484 /* 位移关键帧动画的制作.app */,
+				62B21CB0269AA8BA00C70484 /* 位移关键帧动画的制作Tests.xctest */,
+				62B21CBB269AA8BA00C70484 /* 位移关键帧动画的制作UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62B21C9C269AA8B700C70484 /* 位移关键帧动画的制作 */ = {
+			isa = PBXGroup;
+			children = (
+				62B21C9D269AA8B700C70484 /* AppDelegate.swift */,
+				62B21C9F269AA8B700C70484 /* SceneDelegate.swift */,
+				62B21CA1269AA8B700C70484 /* ViewController.swift */,
+				62B21CA3269AA8B700C70484 /* Main.storyboard */,
+				62B21CA6269AA8B900C70484 /* Assets.xcassets */,
+				62B21CA8269AA8B900C70484 /* LaunchScreen.storyboard */,
+				62B21CAB269AA8B900C70484 /* Info.plist */,
+			);
+			path = "位移关键帧动画的制作";
+			sourceTree = "<group>";
+		};
+		62B21CB3269AA8BA00C70484 /* 位移关键帧动画的制作Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62B21CB4269AA8BA00C70484 /* __________Tests.swift */,
+				62B21CB6269AA8BA00C70484 /* Info.plist */,
+			);
+			path = "位移关键帧动画的制作Tests";
+			sourceTree = "<group>";
+		};
+		62B21CBE269AA8BA00C70484 /* 位移关键帧动画的制作UITests */ = {
+			isa = PBXGroup;
+			children = (
+				62B21CBF269AA8BA00C70484 /* __________UITests.swift */,
+				62B21CC1269AA8BA00C70484 /* Info.plist */,
+			);
+			path = "位移关键帧动画的制作UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62B21C99269AA8B700C70484 /* 位移关键帧动画的制作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21CC4269AA8BA00C70484 /* Build configuration list for PBXNativeTarget "位移关键帧动画的制作" */;
+			buildPhases = (
+				62B21C96269AA8B700C70484 /* Sources */,
+				62B21C97269AA8B700C70484 /* Frameworks */,
+				62B21C98269AA8B700C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "位移关键帧动画的制作";
+			productName = "位移关键帧动画的制作";
+			productReference = 62B21C9A269AA8B700C70484 /* 位移关键帧动画的制作.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62B21CAF269AA8BA00C70484 /* 位移关键帧动画的制作Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21CC7269AA8BA00C70484 /* Build configuration list for PBXNativeTarget "位移关键帧动画的制作Tests" */;
+			buildPhases = (
+				62B21CAC269AA8BA00C70484 /* Sources */,
+				62B21CAD269AA8BA00C70484 /* Frameworks */,
+				62B21CAE269AA8BA00C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B21CB2269AA8BA00C70484 /* PBXTargetDependency */,
+			);
+			name = "位移关键帧动画的制作Tests";
+			productName = "位移关键帧动画的制作Tests";
+			productReference = 62B21CB0269AA8BA00C70484 /* 位移关键帧动画的制作Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62B21CBA269AA8BA00C70484 /* 位移关键帧动画的制作UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21CCA269AA8BA00C70484 /* Build configuration list for PBXNativeTarget "位移关键帧动画的制作UITests" */;
+			buildPhases = (
+				62B21CB7269AA8BA00C70484 /* Sources */,
+				62B21CB8269AA8BA00C70484 /* Frameworks */,
+				62B21CB9269AA8BA00C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B21CBD269AA8BA00C70484 /* PBXTargetDependency */,
+			);
+			name = "位移关键帧动画的制作UITests";
+			productName = "位移关键帧动画的制作UITests";
+			productReference = 62B21CBB269AA8BA00C70484 /* 位移关键帧动画的制作UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62B21C92269AA8B700C70484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					62B21C99269AA8B700C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					62B21CAF269AA8BA00C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 62B21C99269AA8B700C70484;
+					};
+					62B21CBA269AA8BA00C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 62B21C99269AA8B700C70484;
+					};
+				};
+			};
+			buildConfigurationList = 62B21C95269AA8B700C70484 /* Build configuration list for PBXProject "位移关键帧动画的制作" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62B21C91269AA8B700C70484;
+			productRefGroup = 62B21C9B269AA8B700C70484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62B21C99269AA8B700C70484 /* 位移关键帧动画的制作 */,
+				62B21CAF269AA8BA00C70484 /* 位移关键帧动画的制作Tests */,
+				62B21CBA269AA8BA00C70484 /* 位移关键帧动画的制作UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62B21C98269AA8B700C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21CAA269AA8B900C70484 /* LaunchScreen.storyboard in Resources */,
+				62B21CA7269AA8B900C70484 /* Assets.xcassets in Resources */,
+				62B21CA5269AA8B700C70484 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CAE269AA8BA00C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CB9269AA8BA00C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62B21C96269AA8B700C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21CA2269AA8B700C70484 /* ViewController.swift in Sources */,
+				62B21C9E269AA8B700C70484 /* AppDelegate.swift in Sources */,
+				62B21CA0269AA8B700C70484 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CAC269AA8BA00C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21CB5269AA8BA00C70484 /* __________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CB7269AA8BA00C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21CC0269AA8BA00C70484 /* __________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62B21CB2269AA8BA00C70484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B21C99269AA8B700C70484 /* 位移关键帧动画的制作 */;
+			targetProxy = 62B21CB1269AA8BA00C70484 /* PBXContainerItemProxy */;
+		};
+		62B21CBD269AA8BA00C70484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B21C99269AA8B700C70484 /* 位移关键帧动画的制作 */;
+			targetProxy = 62B21CBC269AA8BA00C70484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62B21CA3269AA8B700C70484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B21CA4269AA8B700C70484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62B21CA8269AA8B900C70484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B21CA9269AA8B900C70484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62B21CC2269AA8BA00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62B21CC3269AA8BA00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62B21CC5269AA8BA00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "位移关键帧动画的制作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62B21CC6269AA8BA00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "位移关键帧动画的制作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62B21CC8269AA8BA00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "位移关键帧动画的制作Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/位移关键帧动画的制作.app/位移关键帧动画的制作";
+			};
+			name = Debug;
+		};
+		62B21CC9269AA8BA00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "位移关键帧动画的制作Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/位移关键帧动画的制作.app/位移关键帧动画的制作";
+			};
+			name = Release;
+		};
+		62B21CCB269AA8BA00C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "位移关键帧动画的制作UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "位移关键帧动画的制作";
+			};
+			name = Debug;
+		};
+		62B21CCC269AA8BA00C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "位移关键帧动画的制作UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "位移关键帧动画的制作";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62B21C95269AA8B700C70484 /* Build configuration list for PBXProject "位移关键帧动画的制作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21CC2269AA8BA00C70484 /* Debug */,
+				62B21CC3269AA8BA00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21CC4269AA8BA00C70484 /* Build configuration list for PBXNativeTarget "位移关键帧动画的制作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21CC5269AA8BA00C70484 /* Debug */,
+				62B21CC6269AA8BA00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21CC7269AA8BA00C70484 /* Build configuration list for PBXNativeTarget "位移关键帧动画的制作Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21CC8269AA8BA00C70484 /* Debug */,
+				62B21CC9269AA8BA00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21CCA269AA8BA00C70484 /* Build configuration list for PBXNativeTarget "位移关键帧动画的制作UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21CCB269AA8BA00C70484 /* Debug */,
+				62B21CCC269AA8BA00C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62B21C92269AA8B700C70484 /* Project object */;
+}

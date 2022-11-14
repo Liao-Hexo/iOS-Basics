@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62B21CDA269AA96200C70484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21CD9269AA96200C70484 /* AppDelegate.swift */; };
+		62B21CDC269AA96200C70484 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21CDB269AA96200C70484 /* SceneDelegate.swift */; };
+		62B21CDE269AA96200C70484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21CDD269AA96200C70484 /* ViewController.swift */; };
+		62B21CE1269AA96200C70484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B21CDF269AA96200C70484 /* Main.storyboard */; };
+		62B21CE3269AA96400C70484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B21CE2269AA96400C70484 /* Assets.xcassets */; };
+		62B21CE6269AA96400C70484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B21CE4269AA96400C70484 /* LaunchScreen.storyboard */; };
+		62B21CF1269AA96400C70484 /* __System_Sound_Services______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21CF0269AA96400C70484 /* __System_Sound_Services______Tests.swift */; };
+		62B21CFC269AA96400C70484 /* __System_Sound_Services______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B21CFB269AA96400C70484 /* __System_Sound_Services______UITests.swift */; };
+		62B21D0A269AA9EB00C70484 /* camera.wav in Resources */ = {isa = PBXBuildFile; fileRef = 62B21D09269AA9EA00C70484 /* camera.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62B21CED269AA96400C70484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B21CCE269AA96200C70484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B21CD5269AA96200C70484;
+			remoteInfo = "使用System_Sound_Services播放简短声音";
+		};
+		62B21CF8269AA96400C70484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B21CCE269AA96200C70484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B21CD5269AA96200C70484;
+			remoteInfo = "使用System_Sound_Services播放简短声音";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62B21CD6269AA96200C70484 /* 使用System_Sound_Services播放简短声音.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "使用System_Sound_Services播放简短声音.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21CD9269AA96200C70484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62B21CDB269AA96200C70484 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62B21CDD269AA96200C70484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62B21CE0269AA96200C70484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62B21CE2269AA96400C70484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62B21CE5269AA96400C70484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62B21CE7269AA96400C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B21CEC269AA96400C70484 /* 使用System_Sound_Services播放简短声音Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "使用System_Sound_Services播放简短声音Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21CF0269AA96400C70484 /* __System_Sound_Services______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__System_Sound_Services______Tests.swift"; sourceTree = "<group>"; };
+		62B21CF2269AA96400C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B21CF7269AA96400C70484 /* 使用System_Sound_Services播放简短声音UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "使用System_Sound_Services播放简短声音UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B21CFB269AA96400C70484 /* __System_Sound_Services______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__System_Sound_Services______UITests.swift"; sourceTree = "<group>"; };
+		62B21CFD269AA96400C70484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B21D09269AA9EA00C70484 /* camera.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = camera.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62B21CD3269AA96200C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CE9269AA96400C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CF4269AA96400C70484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62B21CCD269AA96200C70484 = {
+			isa = PBXGroup;
+			children = (
+				62B21CD8269AA96200C70484 /* 使用System_Sound_Services播放简短声音 */,
+				62B21CEF269AA96400C70484 /* 使用System_Sound_Services播放简短声音Tests */,
+				62B21CFA269AA96400C70484 /* 使用System_Sound_Services播放简短声音UITests */,
+				62B21CD7269AA96200C70484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62B21CD7269AA96200C70484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62B21CD6269AA96200C70484 /* 使用System_Sound_Services播放简短声音.app */,
+				62B21CEC269AA96400C70484 /* 使用System_Sound_Services播放简短声音Tests.xctest */,
+				62B21CF7269AA96400C70484 /* 使用System_Sound_Services播放简短声音UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62B21CD8269AA96200C70484 /* 使用System_Sound_Services播放简短声音 */ = {
+			isa = PBXGroup;
+			children = (
+				62B21D09269AA9EA00C70484 /* camera.wav */,
+				62B21CD9269AA96200C70484 /* AppDelegate.swift */,
+				62B21CDB269AA96200C70484 /* SceneDelegate.swift */,
+				62B21CDD269AA96200C70484 /* ViewController.swift */,
+				62B21CDF269AA96200C70484 /* Main.storyboard */,
+				62B21CE2269AA96400C70484 /* Assets.xcassets */,
+				62B21CE4269AA96400C70484 /* LaunchScreen.storyboard */,
+				62B21CE7269AA96400C70484 /* Info.plist */,
+			);
+			path = "使用System_Sound_Services播放简短声音";
+			sourceTree = "<group>";
+		};
+		62B21CEF269AA96400C70484 /* 使用System_Sound_Services播放简短声音Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62B21CF0269AA96400C70484 /* __System_Sound_Services______Tests.swift */,
+				62B21CF2269AA96400C70484 /* Info.plist */,
+			);
+			path = "使用System_Sound_Services播放简短声音Tests";
+			sourceTree = "<group>";
+		};
+		62B21CFA269AA96400C70484 /* 使用System_Sound_Services播放简短声音UITests */ = {
+			isa = PBXGroup;
+			children = (
+				62B21CFB269AA96400C70484 /* __System_Sound_Services______UITests.swift */,
+				62B21CFD269AA96400C70484 /* Info.plist */,
+			);
+			path = "使用System_Sound_Services播放简短声音UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62B21CD5269AA96200C70484 /* 使用System_Sound_Services播放简短声音 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21D00269AA96400C70484 /* Build configuration list for PBXNativeTarget "使用System_Sound_Services播放简短声音" */;
+			buildPhases = (
+				62B21CD2269AA96200C70484 /* Sources */,
+				62B21CD3269AA96200C70484 /* Frameworks */,
+				62B21CD4269AA96200C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "使用System_Sound_Services播放简短声音";
+			productName = "使用System_Sound_Services播放简短声音";
+			productReference = 62B21CD6269AA96200C70484 /* 使用System_Sound_Services播放简短声音.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62B21CEB269AA96400C70484 /* 使用System_Sound_Services播放简短声音Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21D03269AA96400C70484 /* Build configuration list for PBXNativeTarget "使用System_Sound_Services播放简短声音Tests" */;
+			buildPhases = (
+				62B21CE8269AA96400C70484 /* Sources */,
+				62B21CE9269AA96400C70484 /* Frameworks */,
+				62B21CEA269AA96400C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B21CEE269AA96400C70484 /* PBXTargetDependency */,
+			);
+			name = "使用System_Sound_Services播放简短声音Tests";
+			productName = "使用System_Sound_Services播放简短声音Tests";
+			productReference = 62B21CEC269AA96400C70484 /* 使用System_Sound_Services播放简短声音Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62B21CF6269AA96400C70484 /* 使用System_Sound_Services播放简短声音UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B21D06269AA96400C70484 /* Build configuration list for PBXNativeTarget "使用System_Sound_Services播放简短声音UITests" */;
+			buildPhases = (
+				62B21CF3269AA96400C70484 /* Sources */,
+				62B21CF4269AA96400C70484 /* Frameworks */,
+				62B21CF5269AA96400C70484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B21CF9269AA96400C70484 /* PBXTargetDependency */,
+			);
+			name = "使用System_Sound_Services播放简短声音UITests";
+			productName = "使用System_Sound_Services播放简短声音UITests";
+			productReference = 62B21CF7269AA96400C70484 /* 使用System_Sound_Services播放简短声音UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62B21CCE269AA96200C70484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					62B21CD5269AA96200C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					62B21CEB269AA96400C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 62B21CD5269AA96200C70484;
+					};
+					62B21CF6269AA96400C70484 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 62B21CD5269AA96200C70484;
+					};
+				};
+			};
+			buildConfigurationList = 62B21CD1269AA96200C70484 /* Build configuration list for PBXProject "使用System_Sound_Services播放简短声音" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62B21CCD269AA96200C70484;
+			productRefGroup = 62B21CD7269AA96200C70484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62B21CD5269AA96200C70484 /* 使用System_Sound_Services播放简短声音 */,
+				62B21CEB269AA96400C70484 /* 使用System_Sound_Services播放简短声音Tests */,
+				62B21CF6269AA96400C70484 /* 使用System_Sound_Services播放简短声音UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62B21CD4269AA96200C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21CE6269AA96400C70484 /* LaunchScreen.storyboard in Resources */,
+				62B21CE3269AA96400C70484 /* Assets.xcassets in Resources */,
+				62B21CE1269AA96200C70484 /* Main.storyboard in Resources */,
+				62B21D0A269AA9EB00C70484 /* camera.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CEA269AA96400C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CF5269AA96400C70484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62B21CD2269AA96200C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21CDE269AA96200C70484 /* ViewController.swift in Sources */,
+				62B21CDA269AA96200C70484 /* AppDelegate.swift in Sources */,
+				62B21CDC269AA96200C70484 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CE8269AA96400C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21CF1269AA96400C70484 /* __System_Sound_Services______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B21CF3269AA96400C70484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B21CFC269AA96400C70484 /* __System_Sound_Services______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62B21CEE269AA96400C70484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B21CD5269AA96200C70484 /* 使用System_Sound_Services播放简短声音 */;
+			targetProxy = 62B21CED269AA96400C70484 /* PBXContainerItemProxy */;
+		};
+		62B21CF9269AA96400C70484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B21CD5269AA96200C70484 /* 使用System_Sound_Services播放简短声音 */;
+			targetProxy = 62B21CF8269AA96400C70484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62B21CDF269AA96200C70484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B21CE0269AA96200C70484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62B21CE4269AA96400C70484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B21CE5269AA96400C70484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62B21CFE269AA96400C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62B21CFF269AA96400C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62B21D01269AA96400C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "使用System_Sound_Services播放简短声音/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.--System-Sound-Services------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62B21D02269AA96400C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "使用System_Sound_Services播放简短声音/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.--System-Sound-Services------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62B21D04269AA96400C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "使用System_Sound_Services播放简短声音Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.--System-Sound-Services------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/使用System_Sound_Services播放简短声音.app/使用System_Sound_Services播放简短声音";
+			};
+			name = Debug;
+		};
+		62B21D05269AA96400C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "使用System_Sound_Services播放简短声音Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.--System-Sound-Services------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/使用System_Sound_Services播放简短声音.app/使用System_Sound_Services播放简短声音";
+			};
+			name = Release;
+		};
+		62B21D07269AA96400C70484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "使用System_Sound_Services播放简短声音UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.--System-Sound-Services------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "使用System_Sound_Services播放简短声音";
+			};
+			name = Debug;
+		};
+		62B21D08269AA96400C70484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S96XJJN35F;
+				INFOPLIST_FILE = "使用System_Sound_Services播放简短声音UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jialongLiao.--System-Sound-Services------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "使用System_Sound_Services播放简短声音";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62B21CD1269AA96200C70484 /* Build configuration list for PBXProject "使用System_Sound_Services播放简短声音" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21CFE269AA96400C70484 /* Debug */,
+				62B21CFF269AA96400C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21D00269AA96400C70484 /* Build configuration list for PBXNativeTarget "使用System_Sound_Services播放简短声音" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21D01269AA96400C70484 /* Debug */,
+				62B21D02269AA96400C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21D03269AA96400C70484 /* Build configuration list for PBXNativeTarget "使用System_Sound_Services播放简短声音Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21D04269AA96400C70484 /* Debug */,
+				62B21D05269AA96400C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B21D06269AA96400C70484 /* Build configuration list for PBXNativeTarget "使用System_Sound_Services播放简短声音UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21D07269AA96400C70484 /* Debug */,
+				62B21D08269AA96400C70484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62B21CCE269AA96200C70484 /* Project object */;
+}

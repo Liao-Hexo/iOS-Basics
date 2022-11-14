@@ -28,6 +28,34 @@
   - [创建一个简单的表格](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/UITableView和UICollectionView/1.1_创建一个简单的表格)、[自定义单元格UITableViewCell](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/UITableView和UICollectionView/1.2_自定义单元格UITableViewCell)、[自定义单元格的高度](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/UITableView和UICollectionView/1.3_自定义单元格的高度)、[给表格添加章节和索引](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/UITableView和UICollectionView/1.4_给表格添加章节和索引)、[单元格的选择与取消选择](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/UITableView和UICollectionView/1.5_单元格的选择与取消选择)、[单元格的插入和删除](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/UITableView和UICollectionView/1.6_单元格的插入和删除)、[移动单元格的位置](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/UITableView和UICollectionView/1.7_移动单元格的位置)、[表格之间的嵌套](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/UITableView和UICollectionView/1.8_表格之间的嵌套)  
   - [创建一个UICollectionView对象并添加点击事件](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/UITableView和UICollectionView/2.1_创建一个UICollectionView对象并添加点击事件)
 
+### 触屏事件和触摸手势
+
+  - [对触摸事件阶段的监测]()、[监测是否触摸到某个视图并实现图像视图的拖动]()
+  - [实现单点触摸手势]()、[实现双击触摸手势]()、[实现长按手势的监测]()、[捏合手势的监测]()
+  - [3D_Touch的使用]()
+
+### 动画、声音与视频
+
+  - [UIView动画块和Block动画]()、[使用UIImageView播放桢动画]()、[位移关键帧动画的制作]()
+  - [使用System_Sound_Services播放简短声音]()、[使用AVAudioPlayer播放音乐]()
+  - [使用AVPlayer播放影片]()、[实现影片的画中画功能]()
+
+### 网络请求和Alamofire
+
+  - [使用URLSession进行网络请求]()、[使用URLSession下载图片并显示进度]()
+  - [使用Alamofire进行GET和POST请求]()、[使用Alamofire上传图片]()
+  - [使用AlamofireImage缓存图像]()
+
+### UIWebView与HTML5技术
+
+  - [使用UIWebView加载网页]()、[使用UIWebView加载HTML字符串和GIF动画]()、[使用UIWebView加载本地网页]()、[使用JavaScript回调原生程序]()
+  - [创建一个简单的笔记本]()
+
+### 数据的持久化
+
+  - [创建和解析plist文件]()、[将信息写入plist文件]()
+  - [创建CoreData实体并插入数据]()、[检索Core_Data中的数据]()、[修改Core_Data中的数据]()、[删除Core_Data中的数据]()
+
 ### 单元测试和界面测试
 
   - [Xcode的XCTest框架](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/单元测试和界面测试/1.1_Xcode的XCTest框架)、[对自定义类的方法进行单元测试](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/单元测试和界面测试/1.2_对自定义类的方法进行单元测试)、[使用XCTest框架进行性能测试](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/单元测试和界面测试/1.3_使用XCTest框架进行性能测试)

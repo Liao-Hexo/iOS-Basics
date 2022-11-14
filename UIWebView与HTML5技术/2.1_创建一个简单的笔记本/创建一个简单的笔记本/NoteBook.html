@@ -1,0 +1,86 @@
+<!-- 设置网页的CSS样式 -->
+<style>
+    
+/*避免在iOS系统较低版本时，用户点击webView会出现的短暂闪烁现象*/
+* {
+    outline: 0px solid transparent;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+}
+
+body {
+    background-image: url(bg.png);
+    margin: 0 auto;  /* 外间距 */
+    max-width: 900px;
+    color: clear;  /* 文字颜色: #000000 */
+}
+    
+.content {  /* 设置了可编辑div标签的外观样式 */
+    margin: 0px 0;
+    min-height: 430px;
+    overflow-x: hidden;  /* 让webView不显示横向滚动条 */
+}
+    
+div {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 5px 0;
+}
+    
+img {
+    max-width: 900px;
+    width: 100%;
+}
+    
+</style>
+
+<script>
+    
+//添加插入笔记图片的方法，往可编辑div中插入来自Swift的图片
+//通过imagePath获得从swift中传递进来的图片的路径
+function insertImage(imagePath) {
+    
+    var selection = window.getSelection ? window.getSelection() : document.selection;  //获得网页中的选区对象，将通过该对象获得光标所在的位置，因为图片有可能不是插入div标签最后的位置，而是插入由用户自定义的光标所在的位置
+    var range = selection.createRange ? selection.createRange() : selection.getRangeAt(0);  //该对象将用来在光标处插入图片
+    
+    var div = document.createElement("div");  //创建一个新的div标签，它将作为图片的容器
+    div.style.position = "relative";  //设置div标签的位置属性为relative相对模式，使div标签的位置由它的前一兄弟对象决定
+    
+    //创建了一个img图像标签，用来从swift传递过来的图片路径中加载图片
+    //src：表示图片的路径，onerror属性表示如果img标签无法正常加载swift传递过来的图片路径，就显示加载错误提示图片defaultErrorPic.png
+    var insertingImage = "<img src = '"+imagePath+"' onerror = \"this.src = 'defaultErrorPic.png'\"/>"
+    
+    //创建了另一个img图像标签，用来显示悬浮在图片上方并位于右上角的删除图片
+    //position : absolute表示图像的位置属性为绝对定位，不会受其兄弟节点位置的影响
+    //onclick = 'removeImage(this)'即当用户点击删除图标时，执行该方法以删除该图标和位于图标下方的图片
+    var deleteIcon = "<img src = 'deleteImage.png' style = 'width : 30px; height : 30px; margin-top : 9px; position : absolute; z-index : 10; right : 5px' contenteditable = 'false' onclick = 'removeImage(this)'/>"
+    
+    div.innerHTML = deleteIcon+insertingImage;  //这样就可以在新建的div标签中插入一张图片和删除一个图标了
+    range.insertNode(div);  //将div控件添加到当前光标的位置
+    
+    //新的div控件被插入后，光标仍然位于原来的位置，所以通过执行selection对象的modify方法，将光标向右移动一个单词的距离，这样就可以在插入图片之后，将光标移至图片的后方
+    selection.modify("move", "right", "word")
+}
+
+//删除图片
+//obj表示被点击的图片，也就是删除图标
+//第二个参数表示点击事件，可以通过该参数获得点击位置等信息
+function removeImage(obj,e) {
+    
+    obj.parentNode.parentNode.removeChild(obj.parentNode);  //通过第一个parentNode属性获得删除图标的父对象，即新建的那个div控件，再通过第二个parentNode属性获得最外围的、id为content的可编辑的div控件，由该控件通过执行其removeChild方法移除删除图标的父节点
+    document.getElementById("content").blur();  //删除图片后执行了可编辑div的blur操作，因此自动退出编辑模式，iOS系统的键盘也会自动消失
+}
+
+//获得笔记内容
+function getNote() {
+    
+    return document.getElementById("content").innerHTML;  //首先通过document.getElementById获得id为content的可编辑的div控件，然后获得该控件的innerHTML属性，即该控件下的所有子标签(包含文字和图像等)，最后通过return方法返回获得的内容，返回的内容将被传递给swift
+}
+
+</script>
+
+<!-- 创建一个可编辑的div，该div标签充当笔记内容的容器，笔记中的所有文字和图像内容都被放置在该div标签内 -->
+<div class = "content" contenteditable = "true" id = "content"></div>
+<!-- 通过设置contenteditable="true"，将该div设置为可编辑的容器 -->
+<!-- 通过div标签的id属性，可以通过document的getElementById方法查找到该div控件，从而保存该控件内的所有文字和图像内容，以及再次读取保存的内容至div标签中 -->
+<!-- class属性设置div标签的外观样式，具体的样式设置在CSS样式表中进行定义 -->
