@@ -1,8 +1,10 @@
 # iOS开发基础知识
 
-  - [iOS禁止横屏]()
-  - [iOS清理缓存]()、[iOS弹窗]()、[iOS适配Dark Mode]()、[iOS tabBar动画震动效果]()、[自定义UIAlertController]()
-  - [iOS hitTest]()
+### iOS开发相关笔记
+
+  - [iOS禁止横屏](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS禁止横屏.md)
+  - [iOS清理缓存](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS清理缓存.md)、[iOS弹窗](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS弹窗.md)、[iOS适配Dark Mode](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS适配Dark%20Mode.md)、[iOS tabBar动画震动效果](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS%20tabBar动画震动效果.md)、[自定义UIAlertController](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/自定义UIAlertController.md)
+  - [iOS hitTest](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS%20hitTest.md)、[iOS App自动构建文档](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS%20App自动构建文档.md)、[SonarQube-Swift代码扫描](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/SonarQube-Swift代码扫描.md)
 
 ---
 
