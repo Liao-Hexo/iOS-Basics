@@ -1,5 +1,11 @@
 # iOS开发基础知识
 
+  - [iOS禁止横屏]()
+  - [iOS清理缓存]()、[iOS弹窗]()、[iOS适配Dark Mode]()、[iOS tabBar动画震动效果]()、[自定义UIAlertController]()
+  - [iOS hitTest]()
+
+---
+
 ### 视图UIView和层CALayer
 
   - [UIView的外观属性](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/视图UIView和层CALayer/1.1_UIView的外观属性)、[UIView的几何属性](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/视图UIView和层CALayer/1.2_UIView的几何属性)、[UIView的嵌套和层次关系](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/视图UIView和层CALayer/1.3_UIView的嵌套和层次关系)、[UIView的交互属性](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/视图UIView和层CALayer/1.4_UIView的交互属性)、[UIView的变形操作](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/视图UIView和层CALayer/1.5_UIView的变形操作)、[自定义UIView视图](https://github.com/Liao-Hexo/iOS-Basics/tree/Description/视图UIView和层CALayer/1.6_自定义UIView视图)  
