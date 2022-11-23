@@ -1,10 +1,10 @@
 # iOS开发基础知识
 
-### iOS开发相关笔记
+### iOS开发笔记
 
-  - [iOS禁止横屏](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS禁止横屏.md)
-  - [iOS清理缓存](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS清理缓存.md)、[iOS弹窗](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS弹窗.md)、[iOS适配Dark Mode](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS适配Dark%20Mode.md)、[iOS tabBar动画震动效果](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS%20tabBar动画震动效果.md)、[自定义UIAlertController](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/自定义UIAlertController.md)
-  - [iOS hitTest](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS%20hitTest.md)、[iOS App自动构建文档](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/iOS%20App自动构建文档.md)、[SonarQube-Swift代码扫描](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发相关笔记/SonarQube-Swift代码扫描.md)
+  - [App如何禁止横屏](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/App如何禁止横屏.md)、[如何获取真机日志](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/如何获取真机日志.md)
+  - [计算缓存和清理缓存](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/计算缓存和清理缓存.md)、[弹窗样式汇总](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/弹窗样式汇总.md)、[App适配Dark Mode](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/App适配Dark%20Mode.md)、[tabBar增加动画和震动效果](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/tabBar增加动画和震动效果.md)、[自定义UIAlertController](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/自定义UIAlertController.md)、[iOS16强制横竖屏功能](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/iOS16强制横竖屏功能.md)、[Swift字符串工具类](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/Swift字符串工具类.md)
+  - [hitTest介绍](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/hitTest介绍.md)、[Jenkins-iOS项目自动构建](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/Jenkins-iOS项目自动构建.md)、[SonarQube-Swift项目扫描](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/SonarQube-Swift项目扫描.md)、[多线程](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/多线程.md)、[内存泄漏](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/内存泄漏.md)、[Swift通知](https://github.com/Liao-Hexo/iOS-Basics/blob/Description/iOS开发笔记/Swift通知.md)
 
 ---
 
