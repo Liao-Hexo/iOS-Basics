@@ -1,4 +1,4 @@
-## hitTest是啥，它能做什么？
+## hitTest介绍
 
 `- (nullable UIView *)hitTest:(CGPoint)point withEvent:(nullable UIEvent *)event;`
 
@@ -34,6 +34,8 @@ UIResponder内部提供了以下方法来处理事件触摸事件
 
 ### 事件传递过程
 
+Gesture Recognizer：如果视图有事件到来的时候，且视图有附加的手势动作，则手势识别优先处理事件，如果手势识别没有处理事件，则将事件交给视图本身自行处理，视图如果未处理则顺着响应者链继续向后传递。
+
 `touch->UIApplication->UIWindow->UIViewController.view->subViews->...->view`
 
 当用户点击屏幕时，会产生一个触摸事件，系统会将该事件加入到由`UIApplication`管理的事件队列中，`UIApplication`会从事件队列中取出最早的事件进行分发处理，先发送事件给应用程序的主窗口`UIWindow`，主窗口会调用其`hitTest:withEvent:`方法在视图`UIView`层次结构中找到一个最合适的`UIView`来处理触摸事件
@@ -58,6 +60,8 @@ UIResponder内部提供了以下方法来处理事件触摸事件
 }
 ```
 
+![](https://tva1.sinaimg.cn/large/008vxvgGly1h9ifil5cynj30hz0biab3.jpg)
+
 1. 首先在当前视图的`hitTest`方法中调用`pointInside`方法判断触摸点是否在当前视图内
 2. 若`pointInside`方法返回`NO`，说明触摸点不在当前视图内，则当前视图的`hitTest`返回`nil`，该视图不处理该事件
 3. 若`pointInside`方法返回`YES`，说明触摸点在当前视图内，则从最上层的子视图开始，遍历当前视图的所有子视图，调用子视图的`hitTest`方法重复步骤`1-3`，直到有子视图的`hitTest`方法返回非空对象或者全部子视图遍历完毕
@@ -72,6 +76,12 @@ UIResponder内部提供了以下方法来处理事件触摸事件
 3. 执行`ViewC`的`hitTest`方法，由于触摸点是在`ViewC`内，其`pointInside`方法返回`YES`，遍历其子视图，依次调用`ViewD`和`ViewE`的`hitTest`方法
 4. 执行`ViewD`的`hitTest`方法，由于触摸点是不在`ViewD`内，其`pointInside`方法返回`NO`，所以其`hitTest`返回`nil`
 5. 执行`ViewE`的`hitTest`方法，由于触摸点是在 `ViewE`内，其`pointInside`方法返回`YES`，由于其没有子视图了，其`hitTest`返回其本身，最终，由`ViewE`来响应该点击事件
+
+所以在查找第一响应者的时候，有两个核心API，它的原理就是通过不断调用子视图的这两个API完成的：
+
+1. 调用下面的方法，用来获取被用户点击的视图，即第一响应者：`open func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView?`
+2. hitTest方法内部会通过调用下面的方法，来判断用户点击的区域是否在视图上，是则返回true，不是则返回false：`open func point(inside point: CGPoint, with event: UIEvent?) -> Bool`
+3. 下面的两个方法是处理控件上的坐标点转换：`open func convert(_ point: CGPoint, to view: UIView?) -> CGPoint`、`open func convert(_ point: CGPoint, from view: UIView?) -> CGPoint`
 
 ## 中间按钮不响应事件的原因
 

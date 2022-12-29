@@ -8,14 +8,14 @@ class HomeUITabBarViewController: UITabBarController, UITabBarControllerDelegate
         super.viewDidLoad()
         self.delegate = self
 
-        if #available(iOS 15.0, *) {
+        if #available(iOS 13.0, *) {
             self.updateTabBarAppearance()
         } else {
             // Fallback on earlier versions
         }
     }
 
-    @available(iOS 15.0, *)
+    @available(iOS 13.0, *)
     private func updateTabBarAppearance() {
         let tabBarAppearance: UITabBarAppearance = UITabBarAppearance()
         tabBarAppearance.configureWithOpaqueBackground()
@@ -24,7 +24,11 @@ class HomeUITabBarViewController: UITabBarController, UITabBarControllerDelegate
         tabBarAppearance.backgroundColor = barTintColor
 
         self.tabBar.standardAppearance = tabBarAppearance
-        self.tabBar.scrollEdgeAppearance = tabBarAppearance
+        if #available(iOS 15.0, *) {
+            self.tabBar.scrollEdgeAppearance = tabBarAppearance
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }
 ```
