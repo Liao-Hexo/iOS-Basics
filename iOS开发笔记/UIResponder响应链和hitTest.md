@@ -4,7 +4,7 @@
 
 `hitTest`是`UIView`的一个方法，该方法会被系统调用，用于在视图`UIView`层次结构中找到一个最合适的`UIView`来响应触摸事件。我们先来观察以下效果：
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h5vgu3xfaij20u01sxq7j.jpg" style="zoom: 33%;" />
+[![img](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f65366339643234656c7931683576677533786661696a3230753031737871376a2e6a7067.jpeg)](https://camo.githubusercontent.com/0a943a0a4cd2cc16aef213593c9306e2fbae20307901a7a64968520099fee140/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f65366339643234656c7931683576677533786661696a3230753031737871376a2e6a7067)
 
 可以得出结论：系统默认的处理方式是超出`tabBar`的区域，中间按钮是不响应该事件的，而是由其后视图响应，所以这就需要用到`hitTest`了，`hitTest`的目的是让中间按钮超出`tabBar`部分响应点击事件。
 
@@ -60,16 +60,16 @@ Gesture Recognizer：如果视图有事件到来的时候，且视图有附加�
 }
 ```
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h9ifil5cynj30hz0biab3.jpg)
+![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h9ifil5cynj30hz0biab3.jpg)
 
 1. 首先在当前视图的`hitTest`方法中调用`pointInside`方法判断触摸点是否在当前视图内
 2. 若`pointInside`方法返回`NO`，说明触摸点不在当前视图内，则当前视图的`hitTest`返回`nil`，该视图不处理该事件
 3. 若`pointInside`方法返回`YES`，说明触摸点在当前视图内，则从最上层的子视图开始，遍历当前视图的所有子视图，调用子视图的`hitTest`方法重复步骤`1-3`，直到有子视图的`hitTest`方法返回非空对象或者全部子视图遍历完毕
 4. 若第一次有子视图的`hitTest`方法返回非空对象，则当前视图的`hitTest`方法就返回此对象，处理结束，若所有子视图的`hitTest`方法都返回`nil`，则当前视图的`hitTest`方法返回当前视图本身，最终由该对象处理触摸事件
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5vi88bc69j209w09gglm.jpg)
+![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/e6c9d24ely1h5vi88bc69j209w09gglm.jpg)
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5vija2pb3j20fn09twem.jpg)
+![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/e6c9d24ely1h5vija2pb3j20fn09twem.jpg)
 
 1. 首先调用`ViewA`的`hitTest`方法，由于触摸点在其范围内，`pointInside`返回`YES`，遍历其子视图，依次调用`ViewB`和`ViewC`的`hitTest`方法
 2. 执行`ViewB`的`hitTest`方法，由于触摸点是不在`ViewB`内，其`pointInside`方法返回`NO`，`hitTest`返回`nil`
@@ -85,7 +85,7 @@ Gesture Recognizer：如果视图有事件到来的时候，且视图有附加�
 
 ## 中间按钮不响应事件的原因
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h5vj0qnx05j20u00u0gog.jpg" style="zoom: 50%;" />
+[![img](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f65366339643234656c79316835766a30716e7830356a32307530307530676f672e6a7067.jpeg)](https://camo.githubusercontent.com/06fba87e2b280e4752727878f60d0a349564475ad95da1e11b8a3e94cd1505a8/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f65366339643234656c79316835766a30716e7830356a32307530307530676f672e6a7067)
 
 ## 解决办法
 

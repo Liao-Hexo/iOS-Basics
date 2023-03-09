@@ -1,6 +1,6 @@
 我们通常讲的“Cocoa框架”事实上是一个框架的集合，包含众多子框架，其中最重要的是Foundation和UIKit两个框架。
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h920nozh09j30kw0bggm2.jpg)
+![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h920nozh09j30kw0bggm2.jpg)
 
 # Foundation框架
 
@@ -44,94 +44,164 @@ UIKit中每个视图对象的背后都有一个Core Animation层对象，它是�
 
 `注意：UIWindow继承自UIView类`
 
-### 1.NSObject
+----
 
-#### 1.1.UIAcceleration
+# 1.NSObject
 
-#### 1.2.UIAccelerometer
+## 1.1.UIAcceleration
 
-#### 1.3.UIAccessibilityElement
+## 1.2.UIAccelerometer
 
-#### 1.4.UIBarItem
+## 1.3.UIAccessibilityElement
 
-##### 1.4.1.UIBarButtonItem
+## 1.4.UIBarItem
 
-##### 1.4.2.UITabBarItem
+### 1.4.1.UIBarButtonItem
 
-#### 1.5.UIBeziePath
+### 1.4.2.UITabBarItem
 
-#### 1.6.UIColor
+## 1.5.UIBeziePath
 
-#### 1.7.UIDevice
+## 1.6.UIColor
 
-#### 1.8.UIDocumentInteractionController
+## 1.7.UIDevice
 
-#### 1.9.UIEvent
+## 1.8.UIDocumentInteractionController
 
-#### 1.10.UIFont
+## 1.9.UIEvent
 
-#### 1.11.UIGestureRecognizer
+## 1.10.UIFont
 
-##### 1.11.1.UILongPressGestureRecognizer
+## 1.11.UIGestureRecognizer
 
-##### 1.11.2.UIPanGestureRecognizer
+### 1.11.1.UILongPressGestureRecognizer
 
-##### 1.11.3.UIPinchGestureRecognizer
+### 1.11.2.UIPanGestureRecognizer
 
-##### 1.11.4.UIRotationGestureRecognizer
+### 1.11.3.UIPinchGestureRecognizer
 
-##### 1.11.5.UISwipeGestureRecognizer
+### 1.11.4.UIRotationGestureRecognizer
 
-##### 1.11.6.UITapGestureRecognizer
+### 1.11.5.UISwipeGestureRecognizer
 
-#### 1.12.UIImage
+### 1.11.6.UITapGestureRecognizer
 
-#### 1.13.UILocalizedIndexedCollation
+## 1.12.UIImage
 
-#### 1.14.UILocalNotification
+## 1.13.UILocalizedIndexedCollation
 
-#### 1.15.UIMenuController
+## 1.14.UILocalNotification
 
-#### 1.16.UIMenuItem
+## 1.15.UIMenuController
 
-#### 1.17.UINavigationItem
+## 1.16.UIMenuItem
 
-#### 1.18.UITouch
+## 1.17.UINavigationItem
 
-#### 1.19.UITextRange
+## 1.18.UITouch
 
-#### 1.20.UITextPosition
+## 1.19.UITextRange
 
-#### 1.21.UITextInputStringTokenizer
+## 1.20.UITextPosition
 
-#### 1.22.UITextChecker
+## 1.21.UITextInputStringTokenizer
 
-#### 1.23.UISearchDisplayController
+## 1.22.UITextChecker
 
-#### 1.24.UINib
+## 1.23.UISearchDisplayController
 
-#### 1.25.UIPasteboard
+## 1.24.UINib
 
-#### 1.26.UIPopoverController
+## 1.25.UIPasteboard
 
-#### 1.27.UIPrintFormatter
+## 1.26.UIPopoverController
 
-##### 1.27.1.UISimpleTextPrintFormatter
+## 1.27.UIPrintFormatter
 
-##### 1.27.2.UIMarkupTextPrintFormatter
+### 1.27.1.UISimpleTextPrintFormatter
 
+### 1.27.2.UIMarkupTextPrintFormatter
 
+### 1.27.3.UIViewPrintFormatter
 
-#### 1.28.UIPrintInfo
+## 1.28.UIPrintInfo
 
-#### 1.29.UIPrintInteractionController
+## 1.29.UIPrintInteractionController
 
-#### 1.30.UIPrintPageRenderer
+## 1.30.UIPrintPageRenderer
 
-#### 1.31.UIPrintPaper
+## 1.31.UIPrintPaper
 
-#### 1.32.UIResponder
+## 1.32.UIResponder
 
-#### 1.33.UIScreen
+### 1.32.1.UIApplication
 
-#### 1.34.UIScreenMode
+### 1.32.2.UIView
+
+#### 1.32.2.1.UIWindow
+
+#### 1.32.2.2.UILabel
+
+#### 1.32.2.3.UIPickerView
+
+#### 1.32.2.4.UIProgressView
+
+#### 1.32.2.5.UIActivityIndicatorView
+
+#### 1.32.2.6.UIImageView
+
+#### 1.32.2.7.UITabBar
+
+#### 1.32.2.8.UIToolbar
+
+#### 1.32.2.9.UINavigationBar
+
+#### 1.32.2.10.UITableViewCell
+
+#### 1.32.2.11.UIActionSheet
+
+#### 1.32.2.12.UIAlertView
+
+#### 1.32.2.13.UIScrollView
+
+##### 1.32.2.13.1.UITableView
+
+##### 1.32.2.13.2.UITextView
+
+#### 1.32.2.14.UISearchBar
+
+#### 1.32.2.15.UIWebView
+
+#### 1.32.2.16.UIControl
+
+##### 1.32.2.16.1.UIButton
+
+##### 1.32.2.16.2.UIDatePicker
+
+##### 1.32.2.16.3.UIPageControl
+
+##### 1.32.2.16.4.UISegmentedControl
+
+##### 1.32.2.16.5.UITextField
+
+##### 1.32.2.16.6.UISlider
+
+##### 1.32.2.16.7.UISwitch
+
+### 1.32.3.UIViewController
+
+#### 1.32.3.1.UISplitViewController
+
+#### 1.32.3.2.UITabBarController
+
+#### 1.32.3.3.UITableViewController
+
+#### 1.32.3.4.UINavigationController
+
+##### 1.32.3.4.1.UIImagePickerController
+
+##### 1.32.3.4.2.UIVideoEditorController
+
+## 1.33.UIScreen
+
+## 1.34.UIScreenMode

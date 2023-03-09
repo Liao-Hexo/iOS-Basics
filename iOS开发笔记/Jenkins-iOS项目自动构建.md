@@ -56,9 +56,9 @@ brew services restart jenkins-lts  # 重新启动Jenkins服务
 
 系统管理 -> 插件管理 -> 可选插件中搜索`Xcode integration`、`Upload to pgyer`进行安装。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qnulyyo4j30gk029dfv.jpg)
+![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6qnulyyo4j30gk029dfv.jpg)
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qnv4rmelj308a024jra.jpg)
+![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6qnv4rmelj308a024jra.jpg)
 
 ## 构建第一个Jenkins任务
 
@@ -72,33 +72,33 @@ brew services restart jenkins-lts  # 重新启动Jenkins服务
 
 5. Xcode插件配置，建议根据个人需求配置：
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qnvz2cefj30bc02zjr9.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6qnvz2cefj30bc02zjr9.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6r3ge42itj31fa0kqdim.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6r3ge42itj31fa0kqdim.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6r3gmqsetj31fa0nk41n.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6r3gmqsetj31fa0nk41n.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qo1e2koaj30bg0300sm.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6qo1e2koaj30bg0300sm.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qo1tmj69j30g4032748.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6qo1tmj69j30g4032748.jpg)
 
    Provisioning profile UUID：`Xcode - 选中Target - Build Settings - 搜索Provisioning Profile`。
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qo2clzdbj30pj0h8js9.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6qo2clzdbj30pj0h8js9.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qo300iizj30g8025mwy.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6qo300iizj30g8025mwy.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qo3bdib7j30pk03haa1.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6qo3bdib7j30pk03haa1.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qo3n0cxfj30pk03fjrc.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6qo3n0cxfj30pk03fjrc.jpg)
 
 6. 构建后操作
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qo47n8j7j30qh06d74d.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6qo47n8j7j30qh06d74d.jpg)
 
    上传应用到蒲公英教程：https://www.pgyer.com/doc/view/jenkins_plugin
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qo4lpv2dj30qh0em3yl.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6qo4lpv2dj30qh0em3yl.jpg)
    
 7. 点击立即构建按钮开始构建，构建的内容会显示在此文件夹中：`/Users/liaojialong/.jenkins/workspace`。
 
@@ -106,43 +106,43 @@ brew services restart jenkins-lts  # 重新启动Jenkins服务
 
 1. 系统管理 -> 插件管理 -> 可选插件中搜索`Email Extension Template Plugin`进行安装。
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71ekm2yksj30nb03xdg4.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71ekm2yksj30nb103xdg4.jpg)
 
 2. 系统管理 -> 系统配置中填写一些信息：
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71bp8ud7pj30qo02v3yg.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71bp8ud7pj30qo02v3yg.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71bs2tm81j30qo06wwek.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71bs2tm81j30qo06wwek.jpg)
 
    以QQ邮箱为例，这里添加的邮箱密码是授权码，并不是真正的邮箱密码：
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71eoqewgsj30oh06u0tr.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71eoqewgsj30oh06u0tr.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71epoitkgj30he04rt93.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71epoitkgj30he04rt93.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71bstqffsj30qo06f3yj.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71bstqffsj30qo06f3yj.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71bvsaxx4j30qo05idfu.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71bvsaxx4j30qo05idfu.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71bx0q7quj309n0i7mxt.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71bx0q7quj309n0i7mxt.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71by0ljgyj30qu0idjs3.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71by0ljgyj30qu0idjs3.jpg)
 
    这里可以填写收件邮箱测试一下：
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71c1wfv3zj30qu08egly.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71c1wfv3zj30qu08egly.jpg)
 
 3. 项目配置中增加构建后操作步骤：`Editable Email Notification`
 
    `Project Recipient List`中可以添加多个QQ邮箱，每个邮箱用英文逗号隔开，支持群发通知邮件
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71c4ln077j30pi05adfy.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71c4ln077j30pi05adfy.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71c6wrzp7j30pi0feab7.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71c6wrzp7j30pi0feab7.jpg)
 
    注意这里要新增`Recipient List`，这里是一个坑：
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71c8l97azj30pi0k40tm.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71c8l97azj30pi0k40tm.jpg)
 
 ## 通过局域网/外网访问Jenkins
 
@@ -150,47 +150,47 @@ brew services restart jenkins-lts  # 重新启动Jenkins服务
 
 每当Jenkins启动或重启时，会根据`/opt/homebrew/Cellar/jenkins-lts/2.361.1/homebrew.mxcl.jenkins-lts.plist`文件中的内容生成`/Users/liaojialong/Library/LaunchAgents/homebrew.mxcl.jenkins-lts.plist`文件，所以仅需要将第一个plist文件中地址改成`0.0.0.0`，重启Jenkins后就可以在浏览器上用电脑IP地址通过局域网访问了：
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h71db3yswgj30qc058dgq.jpg)
+![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71db3yswgj30qc058dgq.jpg)
 
 将这里的地址也修改下，否则系统管理中会报`反向代理设置有误`：
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h71dfjrpxbj30qm03xjrc.jpg)
+![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71dfjrpxbj30qm03xjrc.jpg)
 
 ## Jenkins-Webhook-GitLab
 
 1. 系统管理 -> 插件管理 -> 可选插件中搜索`GitLab Plugin`进行安装。
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71dl2dhyqj30n703vweq.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71dl2dhyqj30n7031vweq.jpg)
 
 2. 项目配置中选择构建触发器，`GitLab webhook URL`复制下来，`GitLab webhook URL`是GitLab通知Jenkins时的请求地址，用来填写到GitLab上：
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71dnn8tp0j30ld05paa9.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71dnn8tp0j30ld05paa9.jpg)
 
    选择某个分支触发自动构建：
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71dttd41gj30pu0act90.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71dttd41gj30pu0act90.jpg)
 
 3. 在GitLab项目设置中选择Webhooks：
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71dvffb8dj30sx0cbaay.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71dvffb8dj30sx0cbaay.jpg)
 
    粘贴`GitLab webhook URL`即可：
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71dxxjnbpj30qd02ba9y.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71dxxjnbpj30qd02ba9y.jpg)
 
    点击Test按钮，如果报错，仅需要在系统管理 -> 系统配置中将对勾去掉，再Test一下会发现成功了：
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71e0d4sxhj30zc04pta4.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71e0d4sxhj30zc04pta4.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71e5ipl5uj30fb02pq2s.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71e5ipl5uj30fb02pq2s.jpg)
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h71e6mud90j30qs02y0st.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h71e6mud90j30qs02y0st.jpg)
 
 ## Jenkins-Webhook-GitHub
 
 1. 项目配置中选择构建触发器。
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h74n0pbw0pj30lm08yq3c.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h74n0pbw0pj30lm08yq3c.jpg)
 
 2. 与GitLab不同的是，GitHub的地址必须是外网能够访问的，否则GitHub无法访问到Jenkins。所以需要先下载`ngrok`软件（下载地址`https://ngrok.com/download`），切换到下载解压好的文件下，使用ngrok启动：
 
@@ -198,7 +198,7 @@ brew services restart jenkins-lts  # 重新启动Jenkins服务
    ./ngrok http 8088  //这里的8088是Jenkins的端口号
    ```
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h74nb2rzhxj31au0i20uu.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h74nb2rzhxj31au0i20uu.jpg)
 
 3. 所以GitHub项目Settings -> Webhooks中填写的`Payload URL`地址为：
 
@@ -208,7 +208,7 @@ brew services restart jenkins-lts  # 重新启动Jenkins服务
 
 4. 如下图即表示添加成功：
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h74nfjsr5wj30m10520t4.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h74nfjsr5wj30m10520t4.jpg)
 
 5. 注意：如果ngrok断开以后，一定要删除原来添加的Webhooks重新添加。
 
@@ -305,24 +305,24 @@ output3=`/usr/local/bin/sshpass -p "123@qwer@ts" scp /Users/qd/.jenkins/workspac
 
    1. Product -> Archive，构建成功后需要导出ipa包。
 
-      ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6r35zed3tj31c30u076v.jpg)
+      ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6r35zed3tj31c30u076v.jpg)
 
-   2. ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6r2xqmjh9j31c10u0dhx.jpg)
+   2. ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6r2xqmjh9j31c10u0dhx.jpg)
 
-   3. ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6r2ykr5vjj31c10u0jtl.jpg)
+   3. ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6r2ykr5vjj311c10u0jtl.jpg)
 
-   4. ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6r2z366adj31c10u075l.jpg)
+   4. ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6r2z366adj31c10u075l.jpg)
 
    5. 导出完成后，我们可以在导出的文件夹下看到一个`ExportOptions.plist`文件，这个文件就是步骤2/3/4三个步骤的配置过程中的设置项。
 
-      ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6r2zj9zxpj318g0nagnf.jpg)
+      ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6r2zj9zxpj318g0nagnf.jpg)
 
    6. 上述步骤2/3/4都应该在Jenkins的Xcode插件中进行配置，这样在Archive成功后，Jenkins也会根据Xcode插件中的配置去生成一个plist文件，而该错误就是由于Jenkins的Xcode插件没有配置好，无法导出正确的plist文件导致的。
 
-      ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6r301y0zvj312g0ngq4p.jpg)
+      ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6r301y0zvj312g0ngq4p.jpg)
 
 2. 解决方法
 
    Jenkins的Xcode插件进行配置时，在`Code signing & OS X keychain options`选项卡中，选中`Manual signing`，然后配置相应的Bundle ID和Provisioning profile UUID即可(该配置相当于上述步骤4)。
 
-   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6r30hc5zjj30pj0h874k.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/006y8mN6ly1h6r30hc5zjj30pj0h874k.jpg)

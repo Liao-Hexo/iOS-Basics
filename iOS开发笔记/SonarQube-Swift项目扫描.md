@@ -344,4 +344,4 @@ reporter type (xcode, json, csv, checkstyle, junit, html, emoji, sonarqube, mark
 
 在项目根目录下执行`sonar-scanner`命令，成功后刷新SonarQube网页，即可看到扫描结果，遗憾的是，不知道是由于`sonar-swift`插件的原因还是`SonarQube`的原因，扫描结果都是以`Code Smells`的方式呈现出来。
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h7ijax7nyvj31jw0ns0vp.jpg)
+![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h7ijax7nyvj31jw0ns0vp.jpg)

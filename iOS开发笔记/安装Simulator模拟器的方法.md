@@ -2,11 +2,11 @@
 
 2. 选择所要安装的系统版本
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h9ichnqeoxj30mz0ew0tk.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h9ichnqeoxj30mz0ew0tk.jpg)
 
 3. 打开控制台，暂停Xcode中的下载，在控制台中输入“download”进行搜索，可以发现下载地址为`https://devimages-cdn.apple.com/downloads/xcode/simulators/com.apple.pkg.iPhoneSimulatorSDK15_2-15.2.1.1643410298.dmg`
 
-   ![](https://tva1.sinaimg.cn/large/008vxvgGly1h9icu2yotcj30z80h1acm.jpg)
+   ![](https://raw.githubusercontent.com/Liao-Hexo/image-repository/Description/image-repository/iOS%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/008vxvgGly1h9icu2yotcj30z80h1acm.jpg)
 
 4. 复制这条链接，在浏览器中打开就可以下载对应版本的模拟器了
 
