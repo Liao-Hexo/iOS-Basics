@@ -34,8 +34,11 @@ private func tabBarButtonClick(tabBarButton : UIControl) {
     //1519：普通短震，3D Touch中Peek震动反馈
     //1520：普通短震，3D Touch中Pop震动反馈，home键的震动
     //1521：连续三次短震
-    let soundID = SystemSoundID(1519)
-    AudioServicesPlaySystemSound(soundID)  //执行震动
+    //let soundID = SystemSoundID(1519)
+    //AudioServicesPlaySystemSound(soundID)  //执行震动
+  
+    //震动
+    let generator = UIImpactFeedbackGenerator(style: .light)
+    generator.impactOccurred()
 }
 ```
-
